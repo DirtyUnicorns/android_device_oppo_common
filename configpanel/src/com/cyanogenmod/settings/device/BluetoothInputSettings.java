@@ -175,6 +175,7 @@ public class BluetoothInputSettings extends PreferenceActivity
         IntentFilter filter = new IntentFilter();
         filter.addAction(PROCESS_COMMAND_ACTION);
         registerReceiver(mReceiver, filter);
+
     }
 
     @Override
