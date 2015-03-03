@@ -1,8 +1,7 @@
 [
   {
-  	"remote": "du",
-    "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common"
-    "branch": "lollipop-caf"
+    "repository":   "DirtyUnicorns/android_device_qcom-common",
+    "target_path":  "device/qcom/common",
+    "branch":       "lollipop-caf"
   }
 ]
