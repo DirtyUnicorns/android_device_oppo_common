@@ -1,7 +1,0 @@
-[
-  {
-    "repository":   "DirtyUnicorns/android_device_qcom-common",
-    "target_path":  "device/qcom/common",
-    "branch":       "lollipop-caf"
-  }
-]
