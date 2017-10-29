@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.settings.device;
+package com.dirtyunicorns.settings.device;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -45,7 +45,7 @@ import android.view.InputDevice;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 
-import com.cyanogenmod.settings.device.utils.Constants;
+import com.dirtyunicorns.settings.device.utils.Constants;
 
 import java.util.UUID;
 
@@ -282,7 +282,7 @@ public class OclickService extends Service implements
                         }
                     }
 
-                    Intent keyIntent = new Intent("com.cyanogenmod.device.oppo.ACTION_OCLICK_KEY");
+                    Intent keyIntent = new Intent("com.dirtyunicorns.device.oppo.ACTION_OCLICK_KEY");
                     keyIntent.putExtra("key", key);
                     keyIntent.putExtra("action", action);
                     sendBroadcast(keyIntent);

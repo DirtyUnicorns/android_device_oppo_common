@@ -16,7 +16,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           android:sharedUserId="android.uid.system"
-          package="com.cyanogenmod.settings.device"
+          package="com.dirtyunicorns.settings.device"
           android:versionCode="6"
           android:versionName="2.4" >
 
@@ -37,7 +37,7 @@
 
         <provider
             android:name=".ConfigPanelSearchIndexablesProvider"
-            android:authorities="com.cyanogenmod.settings.device"
+            android:authorities="com.dirtyunicorns.settings.device"
             android:multiprocess="false"
             android:grantUriPermissions="true"
             android:permission="android.permission.READ_SEARCH_INDEXABLES"
@@ -77,7 +77,7 @@
             android:name=".GesturePadSettings"
             android:label="@string/backpad_panel_title">
             <intent-filter>
-                <action android:name="com.cyanogenmod.action.LAUNCH_GESTURE_PAD_SETTINGS" />
+                <action android:name="com.dirtyunicorns.action.LAUNCH_GESTURE_PAD_SETTINGS" />
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.title"
@@ -89,7 +89,7 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.PRE_BOOT_COMPLETED" />
                 <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
-                <action android:name="cyanogenmod.intent.action.GESTURE_CAMERA" />
+                <action android:name="dirtyunicorns.intent.action.GESTURE_CAMERA" />
             </intent-filter>
         </receiver>
     </application>

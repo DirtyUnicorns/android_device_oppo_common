@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.settings.device;
+package com.dirtyunicorns.settings.device;
 
-import com.cyanogenmod.settings.device.utils.NodePreferenceActivity;
+import com.dirtyunicorns.settings.device.utils.NodePreferenceActivity;
 
 import android.os.Bundle;
 import android.provider.Settings;
