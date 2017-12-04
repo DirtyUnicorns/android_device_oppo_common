@@ -51,37 +51,18 @@
         <activity
             android:name=".BluetoothInputSettings"
             android:launchMode="singleTop"
-
             android:label="@string/oclick_panel_title">
-            <intent-filter>
-                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.device" />
-            <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_settings_oclick" />
         </activity>
 
         <activity
             android:name=".TouchscreenGestureSettings"
             android:label="@string/screen_gestures_panel_title"
             android:theme="@android:style/Theme.DeviceDefault.Settings">
-            <intent-filter>
-                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
-            </intent-filter>
         </activity>
 
         <activity
             android:name=".GesturePadSettings"
             android:label="@string/backpad_panel_title">
-            <intent-filter>
-                <action android:name="com.dirtyunicorns.action.LAUNCH_GESTURE_PAD_SETTINGS" />
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.title"
-                android:resource="@string/backpad_panel_title" />
         </activity>
 
         <receiver android:name=".Startup" >
