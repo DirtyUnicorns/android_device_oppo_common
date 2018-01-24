@@ -70,9 +70,9 @@ public class ConfigPanelSearchIndexablesProvider extends SearchIndexablesProvide
         if (Startup.hasOClick() /* show oclick panel */) {
             cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_OCLICK_PANEL]));
         }
-        if (Startup.hasTouchscreenGestures() /* show touchscreen panel */) {
-            cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_TOUCHSCREEN_PANEL]));
-        }
+        //if (Startup.hasTouchscreenGestures() /* show touchscreen panel */) {
+        //    cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_TOUCHSCREEN_PANEL]));
+        //}
         return cursor;
     }
 
